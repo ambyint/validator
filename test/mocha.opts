@@ -1,0 +1,4 @@
+--require test/include
+--require test/plugins
+--recursive
+--reporter spec

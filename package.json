@@ -1,0 +1,28 @@
+{
+  "name": "validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "build": "npm install",
+    "start": "npm run build && node index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "async": "^2.3.0",
+    "config": "^1.25.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.11",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  }
+}
